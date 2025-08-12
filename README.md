@@ -7,7 +7,7 @@ The workflow follows a **two-phase process**:
 1. **Data Cleaning** – Transform raw data into a structured, standardized format suitable for analysis.
 2. **Exploratory Data Analysis (EDA)** – Use SQL to extract meaningful insights, trends, and patterns.
 
-## Project Structure**
+## Project Structure
 - layoffs.csv # Raw dataset
 - data_cleaning.sql # Data cleaning queries
 - EDA.sql # Exploratory data analysis queries
