@@ -7,7 +7,7 @@ The workflow follows a **two-phase process**:
 1. **Data Cleaning** – Transform raw data into a structured, standardized format suitable for analysis.
 2. **Exploratory Data Analysis (EDA)** – Use SQL to extract meaningful insights, trends, and patterns.
 
-## Project Structure
+## Project Files
 - layoffs.csv # Raw dataset
 - data_cleaning.sql # Data cleaning queries
 - EDA.sql # Exploratory data analysis queries
@@ -96,9 +96,9 @@ Identified companies with 100% layoffs and sorted them by the number of employee
 - Rolling totals show a steep rise during certain months, possibly linked to market downturns or funding issues.
 
 ## Tools Used
-MySQL – Data cleaning and analysis.
-MySQL Workbench – Running queries and data visualization.
-CSV Data Import – For loading raw data into MySQL.
+- MySQL – Data cleaning and analysis.
+- MySQL Workbench – Running queries and data visualization.
+- CSV Data Import – For loading raw data into MySQL.
 
 ## **How to Run**
 - Clone the repository:
