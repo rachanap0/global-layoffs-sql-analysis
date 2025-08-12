@@ -1,0 +1,24 @@
+# Treat SQL files as SQL for GitHub Linguist
+*.sql linguist-language=SQL
+*.ddl linguist-language=SQL
+*.dml linguist-language=SQL
+*.mysql linguist-language=SQL
+*.psql linguist-language=SQL
+
+# Count Jupyter notebooks correctly
+*.ipynb linguist-language=Jupyter Notebook
+
+# Don’t let data skew the language breakdown
+*.csv linguist-detectable=false
+*.tsv linguist-detectable=false
+*.parquet linguist-detectable=false
+*.jsonl linguist-detectable=false
+data/** linguist-vendored
+datasets/** linguist-vendored
+docs/** linguist-documentation
+
+# Ignore images from language stats
+*.png linguist-detectable=false
+*.jpg linguist-detectable=false
+*.jpeg linguist-detectable=false
+*.svg linguist-detectable=false
